@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.FXMLLoginController">
+    <children>
+        <Button layoutX="371.0" layoutY="307.0" onAction="#btnIniciarSesion" text="Ingresar" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <AnchorPane prefHeight="100.0" prefWidth="800.0" style="-fx-background-color: #18529D;">
+         <children>
+            <Label layoutX="14.0" layoutY="24.0" text="SPGLISOFT" textFill="WHITE">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="327.0" layoutY="124.0" text="Correo electronico">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="363.0" layoutY="235.0" text="Password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfEmail" layoutX="303.0" layoutY="151.0" prefHeight="25.0" prefWidth="195.0" />
+      <PasswordField fx:id="tfPassword" layoutX="303.0" layoutY="262.0" prefHeight="25.0" prefWidth="195.0" />
+    </children>
+</AnchorPane>
